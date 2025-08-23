@@ -1,13 +1,73 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <link rel="icon" type="image/png" href="./assets/studio-image.png">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="src/js/myScript.js" defer></script>
+</head>
+
+<body>
+  <!-- animated background -->
+  <div class="bg-animation">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <div id="stars4"></div>
+  </div>
+
+  <div class="container text-center">
+
+    <!-- Studio info row -->
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="studioInfo">
+          <img id="studioImage" class="img-responsive center-block" src="./assets/studio-image.png" alt="" width="100" height="100">
+          <p class="studioText">Sprig Studio</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cover row -->
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-md-8 col-lg-6 col-lg-offset-3 col-md-offset-2 col-sm-offset-1">
+        <div class="valorCoverImage">
+          <img class="valorImageMain img-responsive" id="bg-image" src="./assets/bg-image.png" />
+          <img class="valorImageMain valorImageMainMoving" id="bg-text" src="./assets/bg-text.png" />
+          <img class="valorImageMain valorImageMainMoving" id="war" src="./assets/war.png" />
+          <img class="valorImageMain valorImageMainMoving" id="wiz" src="./assets/wiz.png" />
+          <img class="valorImageMain valorImageMainMoving" id="elf" src="./assets/elf.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Text row -->
+    <div class="row">
+      <div class="col-xs-12 col-md-10 col-md-offset-1">
+        <div class="mainText">
+          <p class="textParagraph lead">
+            Site is currently under construction...
+          </p>
+          <hr/>
+          <p class="textParagraph text-justify">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>
