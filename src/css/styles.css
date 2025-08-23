@@ -80,16 +80,16 @@ body {
 }
 
 .mainText {
-  max-width: 100%;           /* let Bootstrap grid control width */
+  max-width: 100%;          
   margin: 0 auto;
-  padding: 0 15px;           /* same side padding as Bootstrap container */
+  padding: 0 15px;           
   text-align: justify;
-  word-wrap: break-word;     /* old */
-  overflow-wrap: break-word; /* modern */
+  word-wrap: break-word;     
+  overflow-wrap: break-word; 
 }
 
 .textParagraph {
-  width: 100%;               /* make sure paragraphs shrink with container */
+  width: 100%;           
   line-height: 1.6;
 }
 
